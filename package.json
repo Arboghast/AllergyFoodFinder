@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "@types/node": "^24.0.13",
+    "typescript": "^5.8.3"
+  },
+  "name": "foodfinder",
+  "version": "1.0.0",
+  "description": "Find foods that sami is allergic to",
+  "main": "src/server.ts",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "clean": "rm -rf dist/",
+    "reload": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arboghast/AllergyFoodFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arboghast/AllergyFoodFinder/issues"
+  },
+  "homepage": "https://github.com/Arboghast/AllergyFoodFinder#readme"
+}
