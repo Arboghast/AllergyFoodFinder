@@ -1,14 +1,15 @@
 {
   "dependencies": {
+    "@modelcontextprotocol/inspector": "^0.16.1",
     "@modelcontextprotocol/sdk": "^1.15.1",
     "@types/node": "^24.0.13",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "zod": "^3.25.76"
   },
   "name": "foodfinder",
   "version": "1.0.0",
   "description": "Find foods that sami is allergic to",
   "main": "src/server.ts",
-  "devDependencies": {},
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
